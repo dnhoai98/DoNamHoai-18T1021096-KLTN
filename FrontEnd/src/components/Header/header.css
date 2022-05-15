@@ -1,0 +1,88 @@
+.header {
+    background-image: linear-gradient(rgb(65, 86, 238), rgb(78, 39, 219));
+    height: 260px;
+    position: relative;
+}
+
+.header__logo {
+    width: 110px;
+    height: 130px;
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 30px;
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+.header__middle {
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+.header__middle h1 {
+    text-align: center;
+}
+
+.header__nav-list {
+    display: flex;
+    position: absolute;
+    bottom: 8%;
+}
+
+.header__nav-item {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__nav-link:hover {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+.form-header p {
+    color: red;
+}
+
+.form-declare,
+.form-support,
+.form-request {
+    margin: 40px auto;
+    font-size: 20px;
+    border: 2px solid #ccc;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.group-btn {
+    margin-left: 80%;
+}
+
+.btn{
+    margin: 0 10px;
+    width: 100px;
+    max-width: 100%;
+}
+
+.form-check-input {
+    position: relative;
+}
+
+.form-check-label {
+    margin-left: 8px;
+}

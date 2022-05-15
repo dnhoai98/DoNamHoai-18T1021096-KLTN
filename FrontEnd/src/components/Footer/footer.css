@@ -1,0 +1,34 @@
+.footer {
+    background-image: linear-gradient(rgb(65, 86, 238), rgb(78, 39, 219));
+    height: 210px;
+    position: relative;
+}
+
+.footer__container {
+    display: flex;
+}
+
+.footer__info {
+    margin-left: 200px;
+    position: absolute;
+    top: 50px;
+    color: #fff;
+}
+
+.footer__info span{
+    display: block;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.footer__logo a{
+    width: 110px;
+    height: 130px;
+    display: flex;
+    position: absolute;
+    margin-top: 30px;
+    margin-right: 30px;
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 20px;
+}

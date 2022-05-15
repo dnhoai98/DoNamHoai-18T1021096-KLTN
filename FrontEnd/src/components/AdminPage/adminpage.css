@@ -1,0 +1,16 @@
+.admin__menu {
+    font-size: 20px;
+}
+
+.admin__container {
+    margin: 40px 0;
+}
+
+.list-group-item a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.list-group-item a{
+    color: black;
+}
